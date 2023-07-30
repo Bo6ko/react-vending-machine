@@ -1,0 +1,23 @@
+h1 {
+  font-size: 28px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.btn {
+  padding: 7px 15px;
+  cursor: pointer;
+}
