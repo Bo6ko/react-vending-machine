@@ -1,9 +1,8 @@
 import React from 'react';
 import './Product.css';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { setSelectedProduct } from '../../../redux/actions/productActions';
+// import { setSelectedProduct } from '../../../redux/actions/productActions';
 
 const apiUrl = process.env.REACT_APP_API_URL;
 
@@ -12,9 +11,9 @@ const Product = ({ product, coin, onOk }) => {
 
   const dispatch = useDispatch();
 
-  const onClickProduct = (product) => {
-    dispatch(setSelectedProduct(product));
-  }
+  // const onClickProduct = (product) => {
+  //   dispatch(setSelectedProduct(product));
+  // }
 
   return (
     <>
